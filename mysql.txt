@@ -101,3 +101,4 @@ _通配一个字符
 SELECT GOODS_ID, GOODS_NAME, SHOP_PRICE FROM GOODS WHERE CAT_ID IN (SELECT CAT_ID FROM CATEGORY WHERE PARENT_ID=1);
 
 
+======================================================================================================
